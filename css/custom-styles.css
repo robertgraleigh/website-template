@@ -32,6 +32,7 @@ p {
   font-size: 18px;
   line-height: 16px;
   font-weight; normal;
+  padding: 20px 0px 0px 0px;    
 }
 
 .navbar {
@@ -57,11 +58,18 @@ a:hover {
   text-decoration: underline;
   color: #222222;
 }
-p {
-  padding: 10px 0px 10px 0px;
+span {
+  font-family: 'Oswald', Helvetica, Arial, sans-serif; 
+  font-size: 18px;
 }
 #footer {
+  background-color: #666666;    
   padding: 50px 0px 0px 50px;
+  color: #ffffff;
+}
+#footer a{
+  color: #ffffff;
+  font-size: 16px;
 }
 #copyright {
   margin: 10px 0px 0px 10px;
@@ -78,6 +86,10 @@ p {
   background-image: url('http://placehood.it/1290x480');
   padding: 100px 0px 100px 0px;    
 }
+#pageOneHeader {
+  background-image: url('../img/business-q-c-1920-480-2.jpg');
+  padding: 100px 0px 100px 0px;
+}
 #footerBrandLogo {
   width: 75%;
   height: 75%;
@@ -85,4 +97,7 @@ p {
 #connect {
   background-image: url('../img/city-q-g-1920-480-4.jpg');    
   padding: 100px 0px 100px 0px;
+}
+#copyright {
+  padding: 0px 0px 10px 0px;    
 }

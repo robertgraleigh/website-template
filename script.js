@@ -56,13 +56,15 @@ scotchApp.controller('homeController', function($scope) {
 
 scotchApp.controller('pageOneController', function($scope) {
     // create a message to display in our view
-    $scope.h1 = 'This is page one';        
-    $scope.message = 'Everyone come and see how good I look!';
+    $scope.h1 = 'Meet Robert Raleigh';        
+    $scope.messageone = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.';
+    $scope.messagetwo = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.';
 });
 
 scotchApp.controller('pageTwoController', function($scope) {
-    $scope.h1 = 'This is page two';
-    $scope.message = 'Look! I am an about page.';
+    $scope.h1 = 'Services';
+    $scope.messageone = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.';
+    $scope.messagetwo = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.';
 });
 
 scotchApp.controller('pageThreeController', function($scope) {
