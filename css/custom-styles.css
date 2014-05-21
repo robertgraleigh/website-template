@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Pacifico', cursive;
+}
+
+h1 {
+  font-size: 42px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 32px;
+}
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 21px;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+a.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  color: #cc0000;
+}
+
+a.navbar-brand:hover {
+  font-family: 'Pacifico', cursive;
+  color: #990000;
+}
+a {    
+  color: #333333;
+}
+a:hover {
+  text-decoration: underline;
+  color: #222222;
+}
+p {
+  padding: 10px 0px 10px 0px;
+}
+#footer {
+  padding: 50px 0px 0px 50px;
+}
+#copyright {
+  margin: 10px 0px 0px 10px;
+}
+#homeHeader {
+  background-image: url('../img/business-q-c-1920-480-2.jpg');
+  padding: 150px 0px 120px 0px;
+}
+#homeBannerOne {
+  background-image: url('../img/business-q-c-1920-480-2.jpg');
+  padding: 100px 0px 100px 0px;
+}
+#homeBannerTwo {
+  background-image: url('http://placehood.it/1290x480');
+  padding: 100px 0px 100px 0px;    
+}
+#footerBrandLogo {
+  width: 75%;
+  height: 75%;
+}
+#connect {
+  background-image: url('../img/city-q-g-1920-480-4.jpg');    
+  padding: 100px 0px 100px 0px;
+}
