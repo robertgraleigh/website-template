@@ -45,7 +45,6 @@ scotchApp.config(function($routeProvider) {
         })
 });
 
-// create the controller and inject Angular's $scope
 scotchApp.controller('homeController', function($scope) {
     // create a message to display in our view
     $scope.h1 = 'This is home page';
