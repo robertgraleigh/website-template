@@ -23,11 +23,23 @@ h5 {
   font-size: 21px;
 }
 
+h6 {
+  font-family: 18px;
+}
+
+p {
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 16px;
+  font-weight; normal;
+}
+
 .navbar {
   background-color: #ffffff;
 }
 a.navbar-brand {
   font-family: 'Pacifico', cursive;
+  font-size: 24px;
   color: #cc0000;
 }
 
@@ -36,7 +48,10 @@ a.navbar-brand:hover {
   color: #990000;
 }
 a {    
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
   color: #333333;
+  font-size: 14px;
+  line-height: 12px;
 }
 a:hover {
   text-decoration: underline;
